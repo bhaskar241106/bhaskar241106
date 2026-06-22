@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="./github_3d_banner.png" alt="Header Banner" width="100%" />
+</div>
+
+<div align="center">
 
 # 👋 Hi, I'm Boddeti Bhaskar!
 ### AI Engineer • Full Stack Developer • Cybersecurity Student @ VIT-AP
@@ -246,6 +250,14 @@
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=bhaskar241106&theme=tokyonight&hide_border=true&ring=38bdf8&fire=38bdf8" alt="GitHub Streak" />
+</p>
+
+---
+
+## 📊 3D Contribution Calendar
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D Contributions Calendar" width="100%" />
 </p>
 
 ---
