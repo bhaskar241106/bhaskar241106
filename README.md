@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./github_3d_banner_v3.png" alt="Header Banner" width="100%" />
+  <img src="./github_3d_banner_v3.png" alt="Header Banner" width="50%" />
 </div>
 
 <div align="center">
@@ -30,7 +30,7 @@
 ## 🚀 About Me
 
 <p align="center">
-  <img src="./about_me_glassmorphism_v2.svg" alt="About Me" width="100%" />
+  <img src="./about_me_glassmorphism_v2.svg" alt="About Me" width="85%" />
 </p>
 
 ---
