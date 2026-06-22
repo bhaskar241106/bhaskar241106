@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 380" width="100%" height="100%">
+  <defs>
+    <!-- Import Google Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Outfit:wght@400;600;800&amp;display=swap');
+      
+      .title {
+        font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        fill: #ffffff;
+        letter-spacing: 1px;
+      }
+
+      .text-body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 14.5px;
+        fill: #cbd5e1;
+      }
+
+      .section-header {
+        font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        fill: #c5a880;
+        letter-spacing: 0.8px;
+      }
+
+      .bullet-title {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #f1f5f9;
+      }
+
+      .bullet-desc {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 300;
+        font-size: 13px;
+        fill: #94a3b8;
+      }
+
+      .glass-card {
+        fill: rgba(22, 22, 26, 0.7);
+        stroke: url(#border-gradient);
+        stroke-width: 1.5px;
+        filter: url(#drop-shadow);
+      }
+    </style>
+
+    <!-- Filters -->
+    <filter id="drop-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="20" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- Gradients -->
+    <linearGradient id="border-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18" />
+      <stop offset="50%" stop-color="#c5a880" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.18" />
+    </linearGradient>
+
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#c5a880" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base (Clean dark slate/charcoal) -->
+  <rect width="100%" height="100%" fill="#0d0d0f" rx="12" />
+
+  <!-- Glassmorphic Card Container (Frosted matte card) -->
+  <rect x="25" y="25" width="800" height="330" rx="16" class="glass-card" />
+
+  <!-- Content -->
+  <!-- Title & Icon -->
+  <g transform="translate(50, 65)">
+    <!-- Icon representation in gold/white -->
+    <rect width="36" height="36" rx="8" fill="url(#text-gradient)" opacity="0.9" />
+    <path d="M10 18l4 4 8-8" fill="none" stroke="#0d0d0f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <text x="50" y="26" class="title">ABOUT ME</text>
+  </g>
+
+  <!-- Bio Text -->
+  <text x="50" y="130" class="text-body">
+    <tspan x="50" dy="0">I am a passionate </tspan>
+    <tspan fill="#c5a880" font-weight="600">Full Stack Developer &amp; Cybersecurity Student</tspan>
+    <tspan> at VIT-AP University (CGPA: 8.42). I specialize in building</tspan>
+    <tspan x="50" dy="22">intelligent applications, high-performance web platforms, and offline systems. Through hackathons and</tspan>
+    <tspan x="50" dy="22">real-world projects, I drive robust software architectures with a focus on visual and functional excellence.</tspan>
+  </text>
+
+  <!-- Divider Line (Muted) -->
+  <line x1="50" y1="205" x2="800" y2="205" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+
+  <!-- Two Column Layout with explicit column offsets to guarantee zero overlaps -->
+  <!-- Column 1: Core Focus (Starts at x=50, max-width=390px) -->
+  <text x="50" y="245" class="section-header">🔍 CORE FOCUS</text>
+  
+  <g transform="translate(50, 270)">
+    <circle cx="5" cy="-4" r="3.5" fill="#c5a880" />
+    <text x="20" y="0" class="bullet-text">
+      <tspan class="bullet-title">AI &amp; Deep Learning: </tspan>
+      <tspan class="bullet-desc">Offline LLMs, Voice AI, PyTorch</tspan>
+    </text>
+  </g>
+  
+  <g transform="translate(50, 300)">
+    <circle cx="5" cy="-4" r="3.5" fill="#c5a880" />
+    <text x="20" y="0" class="bullet-text">
+      <tspan class="bullet-title">Computer Vision: </tspan>
+      <tspan class="bullet-desc">Object detection, 3D tracking &amp; reconstruction</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(50, 330)">
+    <circle cx="5" cy="-4" r="3.5" fill="#c5a880" />
+    <text x="20" y="0" class="bullet-text">
+      <tspan class="bullet-title">Cybersecurity: </tspan>
+      <tspan class="bullet-desc">Secure user flows, hashing, &amp; cryptography</tspan>
+    </text>
+  </g>
+
+  <!-- Column 2: Strengths (Starts at x=450, max-width=350px) -->
+  <text x="450" y="245" class="section-header">⚡ STRENGTHS</text>
+  
+  <g transform="translate(450, 270)">
+    <circle cx="5" cy="-4" r="3.5" fill="#ffffff" stroke="#c5a880" stroke-width="1" />
+    <text x="20" y="0" class="bullet-text">
+      <tspan class="bullet-title">Rapid Prototyping: </tspan>
+      <tspan class="bullet-desc">Translating concepts into functional code</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(450, 300)">
+    <circle cx="5" cy="-4" r="3.5" fill="#ffffff" stroke="#c5a880" stroke-width="1" />
+    <text x="20" y="0" class="bullet-text">
+      <tspan class="bullet-title">DSA Foundations: </tspan>
+      <tspan class="bullet-desc">Analytical problem-solving &amp; optimization</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(450, 330)">
+    <circle cx="5" cy="-4" r="3.5" fill="#ffffff" stroke="#c5a880" stroke-width="1" />
+    <text x="20" y="0" class="bullet-text">
+      <tspan class="bullet-title">Leadership: </tspan>
+      <tspan class="bullet-desc">ACS Chapter President &amp; Community Manager</tspan>
+    </text>
+  </g>
+</svg>

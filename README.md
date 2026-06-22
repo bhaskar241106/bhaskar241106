@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./github_3d_banner_v2.png" alt="Header Banner" width="100%" />
+  <img src="./github_3d_banner_v3.png" alt="Header Banner" width="100%" />
 </div>
 
 <div align="center">
@@ -30,7 +30,7 @@
 ## 🚀 About Me
 
 <p align="center">
-  <img src="./about_me_glassmorphism_v1.svg" alt="About Me" width="100%" />
+  <img src="./about_me_glassmorphism_v2.svg" alt="About Me" width="100%" />
 </p>
 
 ---
@@ -225,12 +225,12 @@
 ## 📈 GitHub Analytics & Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=bhaskar241106&show_icons=true&theme=tokyonight&hide_border=true&title_color=38bdf8&icon_color=38bdf8" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhaskar241106&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8" alt="Top Languages" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=bhaskar241106&show_icons=true&bg_color=0d0d0f&title_color=c5a880&text_color=cbd5e1&icon_color=c5a880&hide_border=true" alt="GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhaskar241106&layout=compact&bg_color=0d0d0f&title_color=c5a880&text_color=cbd5e1&hide_border=true" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bhaskar241106&theme=tokyonight&hide_border=true&ring=38bdf8&fire=38bdf8" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bhaskar241106&theme=dark&background=0d0d0f&ring=c5a880&fire=c5a880&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=c5a880&sideLabels=c5a880&dates=94a3b8&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
@@ -245,5 +245,5 @@
 
 <div align="center">
   <h3>💡 <em>"Building technology that solves real-world problems."</em></h3>
-  <img src="https://komarev.com/ghpvc/?username=bhaskar241106&label=Profile%20Views&color=38bdf8&style=for-the-badge" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=bhaskar241106&label=Profile%20Views&color=c5a880&style=for-the-badge" alt="Profile Views" />
 </div>
