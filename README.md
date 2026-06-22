@@ -29,28 +29,9 @@
 
 ## 🚀 About Me
 
-> I am a passionate **Full Stack Developer & Cybersecurity Student** at **VIT-AP University** (CGPA: 8.42) with strong expertise in AI-powered applications, modern web development, and algorithmic problem-solving. Through hackathons and real-world initiatives, I design and build scalable full-stack platforms, offline AI systems, and high-performance applications.
-
-<table border="0" width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔍 What I Focus On</h3>
-      <ul>
-        <li>🤖 <strong>AI & Deep Learning:</strong> Offline LLMs, voice AI, and explainable AI (XAI) models.</li>
-        <li>👁️ <strong>Computer Vision:</strong> Object detection, tracking, and 3D reconstruction systems.</li>
-        <li>🛡️ <strong>Cybersecurity & Core:</strong> Cryptographic hashing, secure user flows, and robust systems.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚡ Professional Strengths</h3>
-      <ul>
-        <li>🛠️ <strong>Rapid Prototyping:</strong> Excellent creative coding and fast prototyping skills.</li>
-        <li>📈 <strong>Problem Solving:</strong> Strong foundations in Data Structures & Algorithms (DSA).</li>
-        <li>👥 <strong>Leadership:</strong> Tech lead and community manager driving student innovation.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./about_me_glassmorphism_v1.svg" alt="About Me" width="100%" />
+</p>
 
 ---
 

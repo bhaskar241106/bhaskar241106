@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="100%" height="100%">
+  <defs>
+    <!-- Import Google Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Outfit:wght@400;600;800&amp;display=swap');
+      
+      .title {
+        font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        fill: #ffffff;
+        letter-spacing: 1px;
+      }
+      
+      .subtitle {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        fill: #38bdf8;
+        letter-spacing: 0.5px;
+      }
+
+      .text-body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 14.5px;
+        fill: #cbd5e1;
+      }
+
+      .section-header {
+        font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        fill: #a78bfa;
+        letter-spacing: 0.5px;
+      }
+
+      .bullet-title {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #f1f5f9;
+      }
+
+      .bullet-desc {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 300;
+        font-size: 13px;
+        fill: #94a3b8;
+      }
+
+      /* Glow effect definitions */
+      .glow-pink {
+        fill: #ec4899;
+        filter: url(#blur-large);
+        opacity: 0.22;
+      }
+
+      .glow-cyan {
+        fill: #06b6d4;
+        filter: url(#blur-large);
+        opacity: 0.22;
+      }
+
+      .glass-card {
+        fill: rgba(15, 23, 42, 0.45);
+        stroke: url(#border-gradient);
+        stroke-width: 1.5px;
+        filter: url(#drop-shadow);
+      }
+    </style>
+
+    <!-- Filters -->
+    <filter id="blur-large" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60" />
+    </filter>
+
+    <filter id="drop-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="15" stdDeviation="20" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+
+    <!-- Gradients -->
+    <linearGradient id="border-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.25" />
+    </linearGradient>
+
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="#090d16" rx="12" />
+
+  <!-- Glowing Background Orbs for Glassmorphism Backdrop -->
+  <circle cx="150" cy="100" r="100" class="glow-pink" />
+  <circle cx="650" cy="280" r="120" class="glow-cyan" />
+
+  <!-- Glassmorphic Card Container -->
+  <rect x="25" y="25" width="750" height="330" rx="16" class="glass-card" />
+
+  <!-- Content -->
+  <!-- Title & Icon -->
+  <g transform="translate(50, 65)">
+    <!-- Icon representation -->
+    <rect width="36" height="36" rx="8" fill="url(#text-gradient)" opacity="0.9" />
+    <path d="M12 12h12v12H12z" fill="#ffffff" transform="scale(0.8) translate(5, 5)" opacity="0.3"/>
+    <path d="M10 18l4 4 8-8" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <text x="50" y="25" class="title">ABOUT ME</text>
+  </g>
+
+  <!-- Bio Text -->
+  <text x="50" y="130" class="text-body">
+    <tspan x="50" dy="0">I am a passionate </tspan>
+    <tspan fill="#38bdf8" font-weight="600">Full Stack Developer &amp; Cybersecurity Student</tspan>
+    <tspan> at VIT-AP University (CGPA: 8.42). I specialize in building</tspan>
+    <tspan x="50" dy="22">intelligent AI-powered applications, high-performance web platforms, and offline AI systems. Through</tspan>
+    <tspan x="50" dy="22">hackathons and real-world projects, I drive robust architectures with a focus on visual and functional excellence.</tspan>
+  </text>
+
+  <!-- Divider Line -->
+  <line x1="50" y1="205" x2="750" y2="205" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
+
+  <!-- Two Column Layout -->
+  <!-- Column 1: Core Focus -->
+  <g transform="translate(50, 225)">
+    <text x="0" y="20" class="section-header">🔍 CORE FOCUS</text>
+    
+    <!-- Bullet 1 -->
+    <g transform="translate(0, 38)">
+      <circle cx="5" cy="8" r="3" fill="#38bdf8" />
+      <text x="18" y="12" class="bullet-title">AI &amp; Deep Learning: <tspan class="bullet-desc">Offline LLMs, Voice AI, OpenCV &amp; PyTorch</tspan></text>
+    </g>
+    
+    <!-- Bullet 2 -->
+    <g transform="translate(0, 60)">
+      <circle cx="5" cy="8" r="3" fill="#38bdf8" />
+      <text x="18" y="12" class="bullet-title">Computer Vision: <tspan class="bullet-desc">Object detection, 3D tracking &amp; reconstruction</tspan></text>
+    </g>
+    
+    <!-- Bullet 3 -->
+    <g transform="translate(0, 82)">
+      <circle cx="5" cy="8" r="3" fill="#38bdf8" />
+      <text x="18" y="12" class="bullet-title">Cybersecurity: <tspan class="bullet-desc">Secure user flows, hashing, and cryptography</tspan></text>
+    </g>
+  </g>
+
+  <!-- Column 2: Strengths -->
+  <g transform="translate(420, 225)">
+    <text x="0" y="20" class="section-header">⚡ STRENGTHS</text>
+    
+    <!-- Bullet 1 -->
+    <g transform="translate(0, 38)">
+      <circle cx="5" cy="8" r="3" fill="#a78bfa" />
+      <text x="18" y="12" class="bullet-title">Rapid Prototyping: <tspan class="bullet-desc">Fast translation of concepts to features</tspan></text>
+    </g>
+    
+    <!-- Bullet 2 -->
+    <g transform="translate(0, 60)">
+      <circle cx="5" cy="8" r="3" fill="#a78bfa" />
+      <text x="18" y="12" class="bullet-title">DSA Foundations: <tspan class="bullet-desc">Analytical problem-solving &amp; optimization</tspan></text>
+    </g>
+    
+    <!-- Bullet 3 -->
+    <g transform="translate(0, 82)">
+      <circle cx="5" cy="8" r="3" fill="#a78bfa" />
+      <text x="18" y="12" class="bullet-title">Leadership: <tspan class="bullet-desc">ACS Chapter President &amp; Community Manager</tspan></text>
+    </g>
+  </g>
+</svg>
